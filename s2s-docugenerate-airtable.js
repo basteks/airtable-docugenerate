@@ -49,7 +49,7 @@ async function chooseFieldFill(tagName) {
     }
   }
   if (foundField != null) {
-    let matchField = await input.buttonsAsync("We found a field whose name matches this tag's name. Do yuo want to use it te replace this tag?",
+    let matchField = await input.buttonsAsync("We found a field whose name matches this tag's name. Do you want to use it te replace this tag?",
 		  [
 			  {label: "Yes", value: 'yes'},
 			  {label: "No", value: 'no'},
