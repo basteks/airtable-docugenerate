@@ -21,7 +21,7 @@ Once you create your Extension, access the settings page by clicking the gear ic
 
 - _Record table_: the table containing the records you will use to replace your template's tags
 - _DocuGenerate API Key_: your API Key from the DocuGenerate platform. Get it from [https://app.docugenerate.com/settings](https://app.docugenerate.com/settings) once you've created your account
-- _DocuGenerate ID of the template_: the ID of your template. Get it from the URL of your template on DocuGenerate which looks like https://app.docugenerate.com/templates/**ID_OF_THE_TEMPLATE**. It is composed of twenty alphanumeric characters.
+- _DocuGenerate ID of the template_: the ID of your template. Get it from the URL of your template on DocuGenerate which looks like `https://app.docugenerate.com/templates/**ID_OF_THE_TEMPLATE**`. It is composed of twenty alphanumeric characters.
 - _DocuGenerate config field_ (text type field): the field used to store the configuration of relationships between your template and your fields
 - _Document storage field_ (either URL or File type field): the field used to store your document
 - _Output format_: output format of the generated document. The options are _.docx_, _.pdf_, _.doc_, _.odt_, _.txt_ or _.html_
